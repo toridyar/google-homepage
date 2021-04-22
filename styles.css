@@ -1,0 +1,112 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  font-size: 14px;
+}
+
+nav,
+footer {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  top: 0;
+}
+
+footer {
+  background-color: #f2f2f2;
+  bottom: 0;
+  border-top: 1px solid #e4e4e4;
+}
+
+nav ul {
+  font-size: 13px;
+}
+
+nav li {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #000;
+}
+
+footer li {
+  padding: 0px 10px 0px 10px;
+}
+
+footer a {
+  color: #5f6368;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  padding-top: 200px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+input {
+  margin-top: 30px;
+}
+
+input[type="submit"] {
+  border: none;
+  color: #5f6368;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.opaque {
+  opacity: 0.75;
+}
+
+.remove-top-padding {
+  padding-top: 0px;
+}
+
+#search-bar {
+  width: 600px;
+  height: 3em;
+  background: url(/assets/search-icon.png) no-repeat 10px center;
+  background-size: 20px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+}
+
+#mic-icon {
+  margin-left: -40px;
+  margin-bottom: -10px;
+}
+
+#sign-in {
+  color: white;
+  background-color: #4285f4;
+  margin: 0px;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
