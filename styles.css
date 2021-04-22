@@ -87,7 +87,7 @@ input[type="submit"] {
 #search-bar {
   width: 600px;
   height: 3em;
-  background: url(/assets/search-icon.png) no-repeat 10px center;
+  background: url(./assets/search-icon.png) no-repeat 10px center;
   background-size: 20px;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
